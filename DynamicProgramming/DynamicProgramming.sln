@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{534C46C4-6D19-4C6E-99EB-1AA83497C049}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_Introduction", "001_Introduction", "{45AAFBE8-C9A9-4709-9442-0F2417C3BD2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Fibonacci", "001_Fibonacci\001_Fibonacci.csproj", "{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{534C46C4-6D19-4C6E-99EB-1AA83497C049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{534C46C4-6D19-4C6E-99EB-1AA83497C049}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{534C46C4-6D19-4C6E-99EB-1AA83497C049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B} = {45AAFBE8-C9A9-4709-9442-0F2417C3BD2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
