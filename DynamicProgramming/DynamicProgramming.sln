@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_KnapsackProblem", "001_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_KnapsackProblem", "002_KnapsackProblem\002_KnapsackProblem.csproj", "{949415C0-70F7-4D49-AE5F-EE4A62955136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_KnapsackProblem_memoization", "003_KnapsackProblem_memoization\003_KnapsackProblem_memoization.csproj", "{2DCF26A9-EF97-432A-9632-2A78F3EC0819}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{949415C0-70F7-4D49-AE5F-EE4A62955136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949415C0-70F7-4D49-AE5F-EE4A62955136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949415C0-70F7-4D49-AE5F-EE4A62955136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCF26A9-EF97-432A-9632-2A78F3EC0819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCF26A9-EF97-432A-9632-2A78F3EC0819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCF26A9-EF97-432A-9632-2A78F3EC0819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCF26A9-EF97-432A-9632-2A78F3EC0819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{8F82C6E4-8A14-48E6-A6CD-5CCD33522C3B} = {45AAFBE8-C9A9-4709-9442-0F2417C3BD2F}
 		{97978DF4-0978-4A16-B6C4-28E3162F75FD} = {7E000CD4-0FBD-4F51-8177-CC41908D1BBB}
 		{949415C0-70F7-4D49-AE5F-EE4A62955136} = {7E000CD4-0FBD-4F51-8177-CC41908D1BBB}
+		{2DCF26A9-EF97-432A-9632-2A78F3EC0819} = {7E000CD4-0FBD-4F51-8177-CC41908D1BBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
