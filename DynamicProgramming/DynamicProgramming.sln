@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_TrapWater_BruteForce", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_TrapWater_DynamicProgramming", "002_TrapWater_DynamicProgramming\002_TrapWater_DynamicProgramming.csproj", "{462D5F7A-5A88-4056-8F08-01F31DE0BAED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_TrapWater_UsingStack", "003_TrapWater_UsingStack\003_TrapWater_UsingStack.csproj", "{6EFC7F1A-A3DD-4FE5-8089-8921633C1F3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{462D5F7A-5A88-4056-8F08-01F31DE0BAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462D5F7A-5A88-4056-8F08-01F31DE0BAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462D5F7A-5A88-4056-8F08-01F31DE0BAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFC7F1A-A3DD-4FE5-8089-8921633C1F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFC7F1A-A3DD-4FE5-8089-8921633C1F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFC7F1A-A3DD-4FE5-8089-8921633C1F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFC7F1A-A3DD-4FE5-8089-8921633C1F3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{EA7533B3-205D-49E1-9486-648C8D01C4A1} = {D3AA7607-725C-4778-B5B4-9752A02D9978}
 		{05ECE380-E2FB-4BBC-BC89-E642B7815961} = {38ECE95C-56E0-4E2B-9971-07DA33EE44FA}
 		{462D5F7A-5A88-4056-8F08-01F31DE0BAED} = {38ECE95C-56E0-4E2B-9971-07DA33EE44FA}
+		{6EFC7F1A-A3DD-4FE5-8089-8921633C1F3F} = {38ECE95C-56E0-4E2B-9971-07DA33EE44FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
