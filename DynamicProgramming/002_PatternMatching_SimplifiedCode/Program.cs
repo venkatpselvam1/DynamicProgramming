@@ -20,7 +20,7 @@ namespace _002_PatternMatching_SimplifiedCode
             //Console.WriteLine(IsMatch("a", "a*a") + " : True");
             //Console.WriteLine(IsMatch("bbbba", ".*a*a") + " : True");
             //Console.WriteLine(IsMatch("abcdede", "ab.*de") + " : True");
-            Console.WriteLine(IsMatch("ab", ".*c") + " : True");
+            Console.WriteLine(IsMatch("ab", ".*c") + " : False");
         }
         public static bool IsMatch(string target, string pattern)
         {

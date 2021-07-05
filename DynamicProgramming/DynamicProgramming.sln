@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_PatternMatching", "001_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PatternMatching_SimplifiedCode", "002_PatternMatching_SimplifiedCode\002_PatternMatching_SimplifiedCode.csproj", "{478D27D3-072C-4EC0-AD3F-41D51B090BB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_PatternMatching_DynamicProgramming", "003_PatternMatching_DynamicProgramming\003_PatternMatching_DynamicProgramming.csproj", "{D5A7033B-C142-4D76-837F-2BCD7225CA10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{478D27D3-072C-4EC0-AD3F-41D51B090BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{478D27D3-072C-4EC0-AD3F-41D51B090BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{478D27D3-072C-4EC0-AD3F-41D51B090BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A7033B-C142-4D76-837F-2BCD7225CA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A7033B-C142-4D76-837F-2BCD7225CA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A7033B-C142-4D76-837F-2BCD7225CA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A7033B-C142-4D76-837F-2BCD7225CA10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +133,7 @@ Global
 		{0C49FAAE-B110-408B-8ADC-118046F23F8E} = {38ECE95C-56E0-4E2B-9971-07DA33EE44FA}
 		{187294C8-7298-4C8E-8D6A-971C1A2EA5F8} = {94FC3F00-9FBA-4EF6-871B-D80341C65201}
 		{478D27D3-072C-4EC0-AD3F-41D51B090BB6} = {94FC3F00-9FBA-4EF6-871B-D80341C65201}
+		{D5A7033B-C142-4D76-837F-2BCD7225CA10} = {94FC3F00-9FBA-4EF6-871B-D80341C65201}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
