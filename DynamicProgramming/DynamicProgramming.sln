@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "006_PointReachable_2D", "00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_PointReachable_2D", "001_PointReachable_2D\001_PointReachable_2D.csproj", "{F10607FE-5C79-40BF-8B2B-4CFA6516CC83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{901D3952-AE25-4852-A6D3-6E4C9F993214}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{F10607FE-5C79-40BF-8B2B-4CFA6516CC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10607FE-5C79-40BF-8B2B-4CFA6516CC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10607FE-5C79-40BF-8B2B-4CFA6516CC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901D3952-AE25-4852-A6D3-6E4C9F993214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901D3952-AE25-4852-A6D3-6E4C9F993214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901D3952-AE25-4852-A6D3-6E4C9F993214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901D3952-AE25-4852-A6D3-6E4C9F993214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
