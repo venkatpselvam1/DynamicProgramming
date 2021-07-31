@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ValidParenthesesLength"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ValidParenthesesLength", "002_ValidParenthesesLength\002_ValidParenthesesLength.csproj", "{E4636801-D8D9-438E-9B20-50BF250E59B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PointReachable_2D", "002_PointReachable_2D\002_PointReachable_2D.csproj", "{065E9738-6F36-440F-B6F6-BFCCBC58357A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{E4636801-D8D9-438E-9B20-50BF250E59B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4636801-D8D9-438E-9B20-50BF250E59B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4636801-D8D9-438E-9B20-50BF250E59B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065E9738-6F36-440F-B6F6-BFCCBC58357A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065E9738-6F36-440F-B6F6-BFCCBC58357A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065E9738-6F36-440F-B6F6-BFCCBC58357A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065E9738-6F36-440F-B6F6-BFCCBC58357A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +171,7 @@ Global
 		{F10607FE-5C79-40BF-8B2B-4CFA6516CC83} = {591A6FD9-C1C4-4524-BBE1-93A3DC004792}
 		{125E9A83-2BA5-41E2-AB86-86F571C457FC} = {E5F1AC36-33C9-4DF2-8416-8431D5602C38}
 		{E4636801-D8D9-438E-9B20-50BF250E59B6} = {E5F1AC36-33C9-4DF2-8416-8431D5602C38}
+		{065E9738-6F36-440F-B6F6-BFCCBC58357A} = {591A6FD9-C1C4-4524-BBE1-93A3DC004792}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
