@@ -79,6 +79,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "011_LongestCommonSubsequenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LongestCommonSubsequence", "001_LongestCommonSubsequence\001_LongestCommonSubsequence.csproj", "{DDAF3D44-0720-4097-9E0D-89885F041220}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_WineHighestProfit_Tabulation", "002_WineHighestProfit_Tabulation\002_WineHighestProfit_Tabulation.csproj", "{0A4BFBE9-9435-475F-A64A-7DE04BD9754D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,10 @@ Global
 		{DDAF3D44-0720-4097-9E0D-89885F041220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDAF3D44-0720-4097-9E0D-89885F041220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDAF3D44-0720-4097-9E0D-89885F041220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4BFBE9-9435-475F-A64A-7DE04BD9754D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4BFBE9-9435-475F-A64A-7DE04BD9754D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4BFBE9-9435-475F-A64A-7DE04BD9754D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4BFBE9-9435-475F-A64A-7DE04BD9754D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +228,7 @@ Global
 		{96CF2169-2E1F-41AF-9715-07158542AEAC} = {FD53D29F-A853-4EC1-B516-8EADBF13D841}
 		{0FBFE260-53A3-45FD-ADC1-9595C2B00F65} = {FD53D29F-A853-4EC1-B516-8EADBF13D841}
 		{DDAF3D44-0720-4097-9E0D-89885F041220} = {92F52F80-0F59-42EF-8770-AF37BC617DCA}
+		{0A4BFBE9-9435-475F-A64A-7DE04BD9754D} = {6C91E57B-DFCE-4D0A-89AB-A9DAAD021720}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
