@@ -41,7 +41,8 @@ namespace _001_WineHighestProfit
                     =>  9 * 8
              */
             //var arr = new int[] {1, 2, 3, 4, 5 };
-            var arr = new int[] { 9, 8, 8, 8, 1, 1, 1, 10 };
+            //var arr = new int[] { 9, 8, 8, 8, 1, 1, 1, 10 };
+            var arr = new int[] { 10,9,8,7,21 };
             var ans = GetMaxProfit(arr);
             Console.WriteLine(ans);
         }
