@@ -107,6 +107,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "016_MaximumWeightPath", "01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MaximumWeightPath", "001_MaximumWeightPath\001_MaximumWeightPath.csproj", "{8E7CF962-96D7-4D28-B16A-525601E8E8BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "017_LongestCommonSubstring", "017_LongestCommonSubstring", "{729A25DB-3902-49E2-AC42-C1D262C69021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_LongestCommonSubstring", "001_LongestCommonSubstring\001_LongestCommonSubstring.csproj", "{C1757E7D-21D7-47D0-ACAE-8500E987FC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -257,6 +261,10 @@ Global
 		{8E7CF962-96D7-4D28-B16A-525601E8E8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E7CF962-96D7-4D28-B16A-525601E8E8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E7CF962-96D7-4D28-B16A-525601E8E8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1757E7D-21D7-47D0-ACAE-8500E987FC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1757E7D-21D7-47D0-ACAE-8500E987FC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1757E7D-21D7-47D0-ACAE-8500E987FC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1757E7D-21D7-47D0-ACAE-8500E987FC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -295,6 +303,7 @@ Global
 		{0DF631BE-D8A7-46E2-99F5-47FEEC93C7D5} = {FC7059C9-46D8-4229-B864-F03709CD3EA1}
 		{AD26CAF0-B5E8-4827-86B8-2448999F622F} = {E9B20E48-51BE-4597-AA25-45874FBFCFD2}
 		{8E7CF962-96D7-4D28-B16A-525601E8E8BF} = {624527FB-8FA5-4AC8-A858-06965A702DED}
+		{C1757E7D-21D7-47D0-ACAE-8500E987FC48} = {729A25DB-3902-49E2-AC42-C1D262C69021}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
