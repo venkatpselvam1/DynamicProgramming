@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _001_CoinChange
+namespace _002_CoinChange
 {
     class Program
     {
@@ -37,35 +37,50 @@ there are five solutions: {2,2,2,2,2}, {2,2,3,3}, {2,2,6}, {2,3,5} and {5,5}. So
         {
             public int GetMaxComb(int[] nums, int value)
             {
-                return GetMaxComb(nums, value, 0, new int?[nums.Length, value + 1]);
-            }
-            public int GetMaxComb(int[] nums, int value, int i, int?[,] dp)
-            {
-                if (i >= nums.Length)
+                var dp = new int[nums.Length, value+1];
+                for (int i = 0; i < nums.Length; i++)
                 {
-                    return 0;
+                    dp[i, 0] = 0;
                 }
-                if (dp[i, value].HasValue)
+                for (int i = 1; i < value+1; i++)
                 {
-                    return dp[i, value].Value;
+                    dp[0, i] = i%nums[0]==0 ? 1:0;
                 }
-                var ans = 0;
-                var count = 0;
-                while (nums[i] * count <= value)
-                {
-                    if (nums[i] * count == value)
-                    {
-                        ans += 1;
-                    }
-                    else
-                    {
-                        ans += GetMaxComb(nums, value - nums[i] * count, i + 1, dp);
-                    }
-                    count++;
-                }
-                dp[i, value] = ans;
 
-                return dp[i, value].Value;
+                for (int i = 1; i < nums.Length; i++)
+                {
+                    for (int j = 1; j < value+1; j++)
+                    {
+                        var ans = 0;
+                        var count = 0;
+                        var newVal = nums[i] * count;
+                        while (newVal <= j)
+                        {
+                            if (newVal == j)
+                            {
+                                ans += 1;
+                            }
+                            else
+                            {
+                                ans += dp[i-1, j- newVal];
+                            }
+                            count++;
+                            newVal = nums[i] * count;
+                        }
+                        dp[i, j] = ans;
+                    }
+                }
+
+                for (int i = 0; i < dp.GetLength(0); i++)
+                {
+                    for (int j = 0; j < dp.GetLength(1); j++)
+                    {
+                        Console.Write(dp[i,j]+",");
+                    }
+                    Console.WriteLine();
+                }
+
+                return dp[nums.Length-1, value];
             }
         }
     }
