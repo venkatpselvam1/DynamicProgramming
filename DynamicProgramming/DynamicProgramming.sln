@@ -129,6 +129,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "021_CircularMaximumSubArray
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_CircularMaximumSubArray", "001_CircularMaximumSubArray\001_CircularMaximumSubArray.csproj", "{07F62063-07E0-4B27-B064-725B1A0DF8E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Kadanes", "002_Kadanes\002_Kadanes.csproj", "{66138D56-08D1-4871-AA1A-894FFBA98CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{07F62063-07E0-4B27-B064-725B1A0DF8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07F62063-07E0-4B27-B064-725B1A0DF8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07F62063-07E0-4B27-B064-725B1A0DF8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66138D56-08D1-4871-AA1A-894FFBA98CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66138D56-08D1-4871-AA1A-894FFBA98CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66138D56-08D1-4871-AA1A-894FFBA98CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66138D56-08D1-4871-AA1A-894FFBA98CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -347,6 +353,7 @@ Global
 		{15FE25BD-6B51-41D7-AFAC-A3FF597B291C} = {EE8D5552-3113-41AB-997A-5FC9707835CA}
 		{4FAFB255-F5FA-4B14-B6A7-15BC22836A5F} = {EE8D5552-3113-41AB-997A-5FC9707835CA}
 		{07F62063-07E0-4B27-B064-725B1A0DF8E6} = {807001C1-C195-417E-8082-E287EAE8E4DE}
+		{66138D56-08D1-4871-AA1A-894FFBA98CD0} = {807001C1-C195-417E-8082-E287EAE8E4DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {460600C0-CB7A-430A-8A84-ACE5F403F10D}
